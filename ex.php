@@ -5,7 +5,7 @@ function getDataFromExcel($file, $sheet, $rows, $cols)
     
     $excel = new COM("Excel.application") or die ("ERROR: Unable to instantaniate COM!\r\n");
     
- 
+ //check
     
     $Workbook = $excel->Workbooks->Open($file) or die("ERROR: Unable to open " . $file . "!\r\n");
     $Worksheet = $Workbook->Worksheets($sheet);
