@@ -2,7 +2,7 @@
 function getDataFromExcel($file, $sheet, $rows, $cols)
 {
     // COM CREATE
-    
+    // New Comment
     $excel = new COM("Excel.application") or die ("ERROR: Unable to instantaniate COM!\r\n");
     
  //check
